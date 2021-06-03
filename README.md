@@ -1,24 +1,24 @@
-# Introduction
+# Giới thiệu
 
 
 
 ![](logo.png)
 
-So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
+Và rồi lại thêm 1 năm trôi qua, phiên bản mới của macOS được phát hành và câu hỏi năm-tuổi lại được một lần hỏi nữa:
 
-**What GPUs are supported with macOS 11 Big Sur?**
+**Những GPU nào được hỗ trợ với macOS 11 Big Sur?**
 
-Well you've come to the right place, I'll give a quick rundown on the situation and go into more detail on exact GPUs we recommend.
+Và bạn đã đến đúng nơi, Tôi sẽ đi nhanh qua vấn đề và đi vào sâu hơn về chính những GPU mà tôi khuyến khích.
 
-## A quick refresher with Nvidia and WebDrivers
+## Làm mới nhanh về Nvidia và WebDrivers
 
 ![WebDrivers](WebDrivers.gif)
 
-Well currently as of the time of writing, we've gone a full OS cycle without official drivers from Nvidia for their Maxwell, Pascal or Turing GPUs. What this means is that users of these GPUs have no support for Mojave, Catalina or Big Sur so are stuck with macOS 10.13 High Sierra. Who's to blame? Well it's 2 giant, egotistical companies who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and Intel have open-sourced drivers? Well, either wa/y, it doesn't change the fact there's no support.
+Tại thời điểm bài này được viết, chúng ta đã đi qua đầy đủ vòng đời OS với không có driver chính thức từ Nvidia cho GPU Maxwell, Pascal hoặc Turing. Điều này có nghĩa là người dùng của những GPU đó không có sự hỗ trợ cho Mojave, Catalina hoặc Big Sur nên họ đã bị dính lại ở macOS 10.13 High Sierra. Giờ thì khiển trách ai? Là, hai ông lớn, egotistical companies who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and Intel have open-sourced drivers? Well, either wa/y, it doesn't change the fact there's no support.
 
-Users with Kepler based GPUs are in the clear though, they utilize Apple's native drivers
+Người dùng GPU dựa trên nền tảng Kepler đều được làm rõ, họ sử dụng driver chính thức cho Apple
 
-And for those who want some reading to do: [When will the Nvidia Web Drivers be released for macOS Mojave 10.14 ](https://devtalk.nvidia.com/default/topic/1042520/drivers/-when-will-the-nvidia-web-drivers-be-released-for-macos-mojave-10-14-/post/5358999/#5358999)
+Và cho những người muốn có cái gì đó để đọc: [When will the Nvidia Web Drivers be released for macOS Mojave 10.14 ](https://devtalk.nvidia.com/default/topic/1042520/drivers/-when-will-the-nvidia-web-drivers-be-released-for-macos-mojave-10-14-/post/5358999/#5358999)
 
 Great read as it shows how even upper management doesn't have a good answer for customers
 
